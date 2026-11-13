@@ -8,12 +8,13 @@ metadata:
 spec:
   chart:
     spec:
-      chart: ""
+      chart: nginx
       sourceRef:
         kind: HelmRepository
         name: bitnami
         namespace: nginx
-  interval: 2m0s
+      version: 15.x
+  interval: 5m0s
   targetNamespace: nginx
   values:
     service:
