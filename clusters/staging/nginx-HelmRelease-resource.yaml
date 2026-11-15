@@ -14,7 +14,7 @@ spec:
         name: bitnami
         namespace: nginx
       version: 15.x
-  interval: 2m0s
+  interval: 5m0s
   targetNamespace: nginx
   values:
     service:
